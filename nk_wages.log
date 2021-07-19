@@ -1,0 +1,105 @@
+Starting preprocessing of the model file ...
+Found 28 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : New Keynesian Phillips Curve eq. (18)
+Equation number 2 : 0 : New Keynesian Wage Phillips Curve eq. (22)
+Equation number 3 : 0 : Dynamic IS Curve eq. (22)
+Equation number 4 : 0 : Interest Rate Rule eq. (26)
+Equation number 5 : 0 : Definition natural rate of interest eq. (24)
+Equation number 6 : 0 : Definition wage gap, eq (21)
+Equation number 7 : 0 : Definition natural wage, eq (16)
+Equation number 8 : 0 : Definition markup
+Equation number 9 : 0 : Definition real wage gap, p. 171
+Equation number 10 : 0 : Definition real interest rate
+Equation number 11 : 0 : Definition natural output, eq. (20)
+Equation number 12 : 0 : Definition output gap
+Equation number 13 : 0 : Monetary policy shock
+Equation number 14 : 0 : TFP shock
+Equation number 15 : 0 : Production function, p. 171
+Equation number 16 : 0 : Preference shock, p. 54
+Equation number 17 : 0 : Money growth (derived from eq. (4))
+Equation number 18 : 0 : Real money demand (eq. 4)
+Equation number 19 : 0 : Annualized nominal interest rate
+Equation number 20 : 0 : Annualized real interest rate
+Equation number 21 : 0 : Annualized natural interest rate
+Equation number 22 : 0 : Annualized inflation
+Equation number 23 : 0 : Annualized wage inflation
+Equation number 24 : 0 : Output deviation from steady state
+Equation number 25 : 0 : Definition price level
+Equation number 26 : 0 : resource constraint, eq. (12)
+Equation number 27 : 0 : definition real wage
+Equation number 28 : 0 : definition real wage
+
+
+
+STEADY-STATE RESULTS:
+
+pi_p         		 0
+y_gap        		 0
+y_nat        		 0
+y            		 0
+yhat         		 0
+r_nat        		 0
+r_real       		 0
+i            		 0
+n            		 0
+m_real       		 0
+m_growth_ann 		 0
+m_nominal    		 0
+nu           		 0
+a            		 0
+r_real_ann   		 0
+i_ann        		 0
+r_nat_ann    		 0
+pi_p_ann     		 0
+z            		 0
+p            		 0
+w            		 0
+c            		 0
+w_real       		 0
+w_gap        		 0
+pi_w         		 0
+w_nat        		 0
+mu_p         		 0
+pi_w_ann     		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+               0               -0                0
+               0               -0                0
+       7.755e-19        7.755e-19                0
+             0.5              0.5                0
+             0.5              0.5                0
+          0.8429           0.8429                0
+             0.9              0.9                0
+               1                1                0
+           1.068            1.065          0.08191
+           1.068            1.065         -0.08191
+           1.205            1.205                0
+
+
+There are 3 eigenvalue(s) larger than 1 in modulus 
+for 3 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+All endogenous are constant or non stationary, not displaying correlations and auto-correlations
+
+height =
+   700
+height =
+        1200
+Total computing time : 0h00m04s

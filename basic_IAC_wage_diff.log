@@ -1,0 +1,13 @@
+Starting preprocessing of the model file ...
+Found 26 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+height =
+        1200
+height =
+        1200
+Total computing time : 0h00m12s

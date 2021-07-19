@@ -1,0 +1,65 @@
+Starting preprocessing of the model file ...
+Found 25 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+[Warning: Some of the parameters have no value (j, OMEGA) when using steady. If these parameters are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to solve the
+model...] 
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : 1
+Equation number 2 : 0.56215 : 2
+Equation number 3 : 0 : 3
+Equation number 4 : 0.10105 : 4
+Equation number 5 : 0 : Wc
+Equation number 6 : 0 : 6
+Equation number 7 : 0 : J
+Equation number 8 : -3.2944 : 8
+Equation number 9 : 0 : Y
+Equation number 10 : 0.3234 : 10
+Equation number 11 : 0 : 11
+Equation number 12 : 0 : A
+Equation number 13 : 0 : dp
+Equation number 14 : 0 : R
+Equation number 15 : 0 : 15
+Equation number 16 : 0 : 16
+Equation number 17 : 1 : 17
+Equation number 18 : 0 : pi_w1
+Equation number 19 : 0 : pi_w2
+Equation number 20 : 0 : w_gap1
+Equation number 21 : 0 : w_gap2
+Equation number 22 : 0 : y_gap
+Equation number 23 : 0 : y_nat
+Equation number 24 : 0 : w_nat1
+Equation number 25 : 0 : w_nat2
+
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print_info', '/Applications/Dynare/4.6.4/matlab/print_info.m', 33)" style="font-weight:bold">print_info</a> (<a href="matlab: opentoline('/Applications/Dynare/4.6.4/matlab/print_info.m',33,0)">line 33</a>)
+Impossible to find the steady state (the sum of square residuals of the static equations is 12.2840). Either the model doesn't have a steady state, there are an infinity of steady states, or the guess values are
+too far from the solution
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', '/Applications/Dynare/4.6.4/matlab/steady.m', 102)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('/Applications/Dynare/4.6.4/matlab/steady.m',102,0)">line 102</a>)
+    print_info(info,options_.noprint, options_);
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('attempt2.driver', '/Users/jackminchin/OneDrive - The University of Nottingham/Macro Group Work/10-05/model/+attempt2/driver.m', 433)" style="font-weight:bold">attempt2.driver</a> (<a href="matlab: opentoline('/Users/jackminchin/OneDrive - The University of Nottingham/Macro Group Work/10-05/model/+attempt2/driver.m',433,0)">line 433</a>)
+steady;
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', '/Applications/Dynare/4.6.4/matlab/dynare.m', 294)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('/Applications/Dynare/4.6.4/matlab/dynare.m',294,0)">line 294</a>)
+evalin('base',[fname '.driver']) ;} 
+dynare basic_IAC_wage_diff
+Using 64-bit preprocessor
+Starting Dynare (version 4.6.4).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 25 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+

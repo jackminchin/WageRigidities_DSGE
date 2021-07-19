@@ -1,0 +1,47 @@
+Starting preprocessing of the model file ...
+Found 26 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+[Warning: Some of the parameters have no value (j, OMEGA) when using steady. If these parameters are not initialized in a steadystate file or a steady_state_model-block,
+Dynare may not be able to solve the model...] 
+
+STEADY-STATE RESULTS:
+
+Cu     		 -0.622359
+Cc     		 -0.729113
+Lu     		 -0.0192161
+Lc     		 0.0864815
+R      		 0.0151935
+bc     		 1.47212
+Hu     		 -0.631869
+Hc     		 -0.758427
+q      		 2.2608
+Wu     		 -0.622551
+Wc     		 -0.728248
+dp     		 0.00514319
+Y      		 0.018835
+C      		 0.018835
+x      		 0.214315
+J      		 0.095
+A      		 7.53753e-23
+pi_w1  		 0.00514319
+pi_w2  		 0.00514319
+w_gap1 		 0.130321
+w_gap2 		 0.117036
+w_nat1 		 -0.622551
+w_nat2 		 -0.728248
+a      		 0
+y_gap  		 0.018835
+y_nat  		 0
+[Warning: Some of the parameters have no value (j, OMEGA) when using stoch_simul. If these parameters are not initialized in a steadystate file or a steady_state_model-block,
+Dynare may not be able to solve the model...] 
+[Warning: Some of the parameters have no value (j, OMEGA) when using stoch_simul. If these parameters are not initialized in a steadystate file or a steady_state_model-block,
+Dynare may not be able to solve the model...] 
+[Warning: Some of the parameters have no value (j, OMEGA) when using stoch_simul. If these parameters are not initialized in a steadystate file or a steady_state_model-block,
+Dynare may not be able to solve the model...] 
+Total computing time : 0h00m01s
+Note: warning(s) encountered in MATLAB/Octave code
